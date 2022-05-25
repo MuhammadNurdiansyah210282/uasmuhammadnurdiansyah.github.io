@@ -1,0 +1,33 @@
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(0, 0, 0);
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: whitesmoke;
+    border-bottom: 3px solid whitesmoke;
+    }
+
+
+.carousel-caption h5 {
+    color: aliceblue;
+    text-shadow: 2px 2px black;
+} 
+
+.crousel-caption h5 p{
+    color: aliceblue;
+    text-shadow: 2px 2px black;
+} 
+
+#youtube {
+    margin: 15px;
+}
+
+#contact {
+    padding: 3px;
+}
+
+.footer {
+    padding-bottom: 5px;
+    margin-top: 15px;
+    margin-bottom: 0px;
+}

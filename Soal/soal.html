@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soal</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="soal.css">
+</head>
+<body>
+     <!--navbar-->
+     <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-warning shadow-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="../logo.png" height="45px" width="auto" alt="upg"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+            <ul class="navbar-nav ">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="../index.html">Home</a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="soal.html">Soal</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../biodata/biodata.html">Biodata</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Media
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="../media/video.html">Video</a></li>
+                  <li><a class="dropdown-item" href="../media/audio.html">Music</a></li>
+                  
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!--Akhir Navbar-->
+
+
+      
+<!-- header -->
+<div class="header">
+    <hr>
+    <h1> Ulangan Akhir Semester Genap <br>Tahun Ajaran 2021-2022 </h1>
+
+    <hr style="height: 2px; border-width: 1; color: black; background-color: black;"> 
+    <hr>
+
+</div>
+
+<!--data atau table-->
+<div class="data">
+    <h2>Isilah Biodata Anda Terlebih dahulu</h2>
+    <table cellpadding="7" cellspacing="10">
+        <tr>
+            <td rowspan="9"><img class="foto" src="foto.png" alt="" width="200px"></td>
+        </tr>
+        <tr>
+            <td>Nama</td>
+            <td>:</td>
+            <td><input type="text" name="name" id="name" placeholder="NAMA..."></td>
+        </tr>
+        <tr>
+            <td>NIM</td>
+            <td>:</td>
+            <td><input type="password" name="nim" id="nim" placeholder="NIM..."></td>
+        </tr>
+        <tr>
+            <td>Prodi</td>
+            <td>:</td>
+            <td><form action="">
+                <select name="prodi" id="prodi" style="width: 178px; height: auto;">
+                    <option value="" style="color:black;">PILIH PRODI ANDA</option>
+                    <option value="" style="color: black;">INFORMATIKA</option>
+                    <option value="" style="color: black;">SISTEM INFORMASI</option>
+                    <option value="" style="color: black;">TEKNIK KOMPUTER</option>
+                </select>
+            </form></td>
+        </tr>
+        <tr>
+            <td>Kelas</td>
+            <td>:</td>
+            <td><input type="text" name="kelas" id="kelas" placeholder="KELAS..."></td>
+        </tr>
+        <tr>
+          <td>Mata Kuliah</td>
+          <td>:</td>
+          <td><input type="text" placeholder="MATA KULIAH..." name="mk" id="mk"></tr>
+      </tr>
+        <tr>
+            <td>Jenis Kelamin</td>
+            <td>:</td>
+            <td>
+              laki-laki<input type="radio" name="Pria" id="JK" value="kelamin">
+              perempuan<input type="radio" name="Pria" id="JK" value="kelamin">
+            <td>
+        </tr>
+        <tr>
+            <td>Tanggal Ujian</td>
+            <td>:</td>
+            <td>
+              <input type="datetime-local" name="tanggal" id=tanggal">
+            <td>
+        </tr>
+    </table>
+</div>
+
+<!-- Waktu-->
+
+<div class="time">
+    <h4> Sisa Waktu Anda Mengerjakan Adalah</h4> 
+    <p id="demo"></p>
+</div>
+
+<!--soal-->
+<section id="soal" class=" justify-content-center soal">
+<div class="container">
+   <b> <h3 class="text-center">  SOAL PILIHAN GANDA </h3></b><hr style="width: 50%; height: 2px; color: black; margin: 1px auto;">
+   <p class="pertanyaan">1. Submenu Header and Footer terletak pada tab ….</p>
+   <ul>
+       <div class="jawaban">
+       <li><input type="radio" name="1" id="1"> Home</li>
+       <li><input type="radio" name="1" id="1"> Page layout</li>
+       <li><input type="radio" name="1" id="1"> Insert</li>
+       <li><input type="radio" name="1" id="1"> View</li>  
+    </div>
+    </ul>
+
+   <p class="pertanyaan">2. Untuk menghilangkan garis pinggiran pada tabel menggunakan pilihan ….</p>
+   <ul>
+       <div class="jawaban">
+       <li><input type="radio" name="2" id="2"> All</li>
+       <li><input type="radio" name="2" id="2"> Box</li>
+       <li><input type="radio" name="2" id="2"> None</li>
+       <li><input type="radio" name="2" id="2"> Grid</li>  
+    </div>
+   </ul>
+
+   <p class="pertanyaan">3. Untuk membuat table sederhana, kita dapat menggunakan fasilitas ….</p>
+   <ul>
+    <div class="jawaban">
+       <li><input type="radio" name="3" id="3"> Insert</li>
+       <li><input type="radio" name="3" id="3"> Insert Table</li>
+       <li><input type="radio" name="3" id="3"> Insert List</li>
+       <li><input type="radio" name="3" id="3"> Insert Roaster </li> 
+   </div>
+   </ul>
+
+   <p class="pertanyaan">4. Perintah Split Cell berfungsi untuk ….</p>
+   <ul>
+    <div class="jawaban">
+       <li><input type="radio" name="4" id="4"> Menggabungkan sel</li>
+       <li><input type="radio" name="4" id="4"> Menggabungkan Kolom</li>
+       <li><input type="radio" name="4" id="4"> Membagi Sel</li>
+       <li><input type="radio" name="4" id="4"> Membagi baris</li>
+   </div>  
+   </ul>
+
+   <p class="pertanyaan">5. Chart title digunakan untuk ….</p>
+   <ul>
+    <div class="jawaban">
+       <li><input type="radio" name="5" id="5"> Memasukan Judul Grafik </li>
+       <li><input type="radio" name="5" id="5"> Membuat Keterangan Grafik </li>
+       <li><input type="radio" name="5" id="5"> Menampilkan nilai puncak Grafik </li>
+       <li><input type="radio" name="5" id="5"> Menampilkan/Menyembunikan label </li>  
+   </ul>
+
+   <p class="pertanyaan">6.Kotak perintah Preset pada kotak dialog Format Column digunakan Untuk ….</p>
+   <ul>
+    <div class="jawaban">
+       <li><input type="radio" name="6" id="6"> pilihan jumlah kolom</li>
+       <li><input type="radio" name="6" id="6"> memunculkan garis pemisah antarkolom</li>
+       <li><input type="radio" name="6" id="6"> menentukan lebar kolom</li>
+       <li><input type="radio" name="6" id="6"> pindah halaman</li>  
+    </div>
+   </ul>
+
+   <p class="pertanyaan">7. Pada menu margin terdapat tulisan Gutter yang berfungsi untuk mengatur ….</p>
+   <ul>
+    <div class="jawaban">
+       <li><input type="radio" name="7" id="7"> letak kertas</li>
+       <li><input type="radio" name="7" id="7"> letak penjilidan</li>
+       <li><input type="radio" name="7" id="7"> batas penjilidan</li>
+       <li><input type="radio" name="7" id="7"> batas kertas</li>  
+    </div>
+   </ul>
+
+   <p class="pertanyaan">8. Digunakan untuk mencari teks tertentu dalam suatu dokumen dengan cepat dan akurat adalah …</p>
+   <ul>
+    <div class="jawaban">
+       <li><input type="radio" name="8" id="8"> proofing</li>
+       <li><input type="radio" name="8" id="8"> find </li>
+       <li><input type="radio" name="8" id="8"> replace </li>
+       <li><input type="radio" name="8" id="8"> editing</li> 
+    </div> 
+   </ul>
+
+   <p class="pertanyaan">9. Digunakan untuk mengganti teks yang ditemukan melalui perintah Find dengan teks baru …</p>
+   <ul>
+    <div class="jawaban">
+       <li><input type="radio" name="9" id="9"> Proofing</li>
+       <li><input type="radio" name="9" id="9"> find</li>
+       <li><input type="radio" name="9" id="9"> replace</li>
+       <li><input type="radio" name="9" id="9"> editing</li>  
+    </div>
+   </ul>
+
+   <p class="pertanyaan">10. Batas pengetikan pada program Microsoft Word disebut …</p>
+   <ul>
+    <div class="jawaban">
+       <li><input type="radio" name="10" id="10"> paagraf</li>
+       <li><input type="radio" name="10" id="10"> layout</li>
+       <li><input type="radio" name="10" id="10"> page size </li>
+       <li><input type="radio" name="10" id="10"> margin</li>  
+    </div>
+   </ul>
+
+   <p class="pertanyaan">11. Fasilitas yang menampilkan jumlah kata yang diketik dan jumlah lembar kerja secara otomatis disebut …</p>
+   <ul>
+    <div class="jawaban">
+       <li><input type="radio" name="11" id="11"> Word art</li>
+       <li><input type="radio" name="11" id="11"> Smart art </li>
+       <li><input type="radio" name="11" id="11"> Word count</li>
+       <li><input type="radio" name="11" id="11"> Font </li> 
+     </div>
+   </ul>
+
+   <p class="pertanyaan">12. Naskah yang terletak pada bagian bawah atau juga disebut catatan kaki disebut …</p>
+   <ul>
+    <div class="jawaban">
+       <li><input type="radio" name="12" id="12"> header</li>
+       <li><input type="radio" name="12" id="12"> footer </li>
+       <li><input type="radio" name="12" id="12"> page number </li>
+       <li><input type="radio" name="12" id="12"> symbol </li>  
+    </div></ul>
+
+   <p class="pertanyaan">13. File dokumen yang diketik menggunakan Microsoft Word, saat disimpan dalam bentuk format …</p>
+   <ul>
+       <div class="jawaban">
+       <li><input type="radio" name="13" id="13"> Xls </li>
+       <li><input type="radio" name="13" id="13"> PPT </li>
+       <li><input type="radio" name="13" id="13"> JPG </li>
+       <li><input type="radio" name="13" id="13"> DOC </li>  
+  </div> 
+</ul>
+
+   <p class="pertanyaan">14. Untuk Menebalkan Text menggunakan fitur ...</p>
+   <ul>
+    <div class="jawaban">
+       <li><input type="radio" name="14" id="14"> italic </li>
+       <li><input type="radio" name="14" id="14"> underline</li>
+       <li><input type="radio" name="14" id="14"> bold </li>
+       <li><input type="radio" name="14" id="14"> font </li>  
+    </div>
+   </ul>
+
+   <p class="pertanyaan">15. Short Cut untuk merata tengahkan tulisan bisa menggunakan tombol ...</p>
+   <ul>
+    <div class="jawaban">
+       <li><input type="radio" name="1" id="1"> Ctrl + J </li>
+       <li><input type="radio" name="1" id="1"> Ctrl + E </li>
+       <li><input type="radio" name="1" id="1"> Ctrl + C </li>
+       <li><input type="radio" name="1" id="1"> Ctrl + Z </li>  
+    </div>
+   </ul>
+
+<input type="button" value="Kirim" class="btn" onclick="confirm( 'apakah anda yakin ingin mengirimkan jawaban ?')"> <input class="btn" type="button" value="Simpan" onclick="confirm('apakah anda yakiin ingin menyimpan jawaban ?')">
+</section>
+</div>
+
+
+<!-- footer -->
+<footer>
+    <marquee behavior="sliding" direction="right">
+    <p>Terimakasih Telah Mengerjakan UAS dengan Jujur</p>
+</marquee>
+</footer>
+ <!-- Footer -->
+ <p  class="footer text-center bg-warning text-light">Copyright Muhammad Nurdiansyah 2022 | <a href="http://instagram.com/nrdnsyh_" class="text-light"> My Instagram </a></p>
+ <!-- akhir footer -->
+
+    <script src="soal.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>

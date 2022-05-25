@@ -1,0 +1,15 @@
+.navbar-light .navbar-nav .nav-link {
+	color: rgb(0, 0, 0);
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+	color: whitesmoke;
+	border-bottom: 3px solid whitesmoke;
+}
+
+h1 {
+	display: flex;
+	text-align: center;
+	margin: 60px;
+	padding: 30px;
+}

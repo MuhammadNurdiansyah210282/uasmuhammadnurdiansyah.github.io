@@ -1,0 +1,105 @@
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(0, 0, 0);
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: whitesmoke;
+    border-bottom: 3px solid whitesmoke;
+    }
+
+
+
+.header h1 {
+    margin-top: 20px;
+    padding-top: 60px;
+    text-align: center;
+}
+
+
+.data {
+    margin:10px 10px;
+    padding: 5px;
+}
+
+    .time {
+        display: block;
+        color: aliceblue;
+        background-color: gold;
+        border: 1px;
+        border-radius: 3px;
+        text-align: center;
+        margin-bottom: 10px;
+        padding: 1px;
+        box-shadow: 0 0 3px black;
+    }
+
+    .time h4 {
+        padding: 2px;
+    }
+
+    .time p {
+        padding-top: 5px;
+    }
+
+
+    .soal {
+        justify-content: center;
+        margin-left: 10px;
+        margin-top: 10px;
+        height: auto;
+        width: fit-content;
+        background-color: sandybrown;
+        border-radius: 5px;
+        padding: 5px;
+        margin: 0 auto;
+    }
+
+
+    .soal ul li {
+        list-style: none;
+        list-style-type: none;
+    }
+
+    .pertanyaan {
+        margin-top: 5px;
+        background-color: rgb(255, 255, 255);
+        height: fit-content;
+        width: auto;
+        padding: 5px;
+        border-radius: 5px;
+    }
+
+
+    .jawaban {
+        color: white;
+        background-color: gray;
+        height: fit-content;
+        width: 500px;
+        list-style: none;
+        list-style-type: none;
+        padding: 5px;
+        border-radius: 5px;
+    }
+
+    .btn {
+        color: black;
+        background-color:gold;
+        padding-left: 10px;
+        box-shadow: 0 0 5px black;
+        border-radius: 10px;
+        cursor: pointer;
+        margin-left: 10px;
+        margin-bottom: 9px;
+    }
+
+    .btn:hover {
+        color: aliceblue;
+        background-color: rgb(252, 228, 96);
+    }
+
+    .footer {
+        padding-bottom: 5px;
+        margin-top: 15px;
+        margin-bottom: 0px;
+    }

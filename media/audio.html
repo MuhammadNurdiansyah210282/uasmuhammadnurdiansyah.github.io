@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+			crossorigin="anonymous"
+		/>
+		<link rel="stylesheet" href="audio.css" />
+		<title>Audio</title>
+	</head>
+	<body>
+		<!--navbar-->
+		<nav
+			class="navbar navbar-expand-lg fixed-top navbar-light bg-warning shadow-lg"
+		>
+			<div class="container-fluid">
+				<a class="navbar-brand" href="#"
+					><img src="../logo.png" height="45" width="auto" alt="upg"
+				/></a>
+				<button
+					class="navbar-toggler"
+					type="button"
+					data-bs-toggle="collapse"
+					data-bs-target="#navbarNavDropdown"
+					aria-controls="navbarNavDropdown"
+					aria-expanded="false"
+					aria-label="Toggle navigation"
+				>
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div
+					class="collapse navbar-collapse justify-content-end"
+					id="navbarNavDropdown"
+				>
+					<ul class="navbar-nav">
+						<li class="nav-item">
+							<a
+								class="nav-link active"
+								aria-current="page"
+								href="../index.html"
+								>Home</a
+							>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="../Soal/soal.html"
+								>Soal</a
+							>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="../biodata/biodata.html"
+								>Biodata</a
+							>
+						</li>
+						<li class="nav-item dropdown">
+							<a
+								class="nav-link dropdown-toggle"
+								href="#"
+								id="navbarDropdownMenuLink"
+								role="button"
+								data-bs-toggle="dropdown"
+								aria-expanded="false"
+							>
+								Media
+							</a>
+							<ul
+								class="dropdown-menu"
+								aria-labelledby="navbarDropdownMenuLink"
+							>
+								<li>
+									<a class="dropdown-item" href="video.html"
+										>Video</a
+									>
+								</li>
+								<li>
+									<a class="dropdown-item" href="audio.html"
+										>Music</a
+									>
+								</li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<!--Akhir Navbar-->
+<h3>==========</h3>
+
+
+  <div class="row text-center mb-3 mt-5">
+    <div class="col">
+      <h2>Ini Adalah Halaman yang menampilkan media music</h2>
+    </div>
+  </div>
+
+
+<!--Music-->
+    <section id="music">
+      <div class="container">
+        <div class="row text-center mb-3">
+          <div class="col">
+            <h2>My Music</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <img src="lofi.jpg" class="card-img-top" alt="Lofi" />
+              <div class="card-body">
+                <audio class="music" controls>
+                  <source src="lofi.mp3" type="audio/mp3" />
+                  Your browser does not support the audio element.
+                </audio>
+                <p class="card-text">lofi hip hop radio - beats to relaxstudy to</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <img src="friendzone.jpg" class="card-img-top" alt="2" />
+              
+              <div class="card-body">
+                <audio class="music" controls>
+                  <source src="FriendzoneBudiDoremi.mp3" type="audio/mp3" />
+                  Your browser does not support the audio element.
+                </audio>
+                <p class="card-text">Friendzone - Budi Doremi</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <img src="haricerah.jpg" class="card-img-top" alt="3" />
+              <audio class="music" controls>
+                <source src="Budidoremihariyangcerah.mp3" type="audio/mp3" />
+                Your browser does not support the audio element.
+              </audio>
+              <div class="card-body">
+                <p class="card-text">Hari Yang Cerah - Budi Doremi</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="row justify-content-center">
+            <div class="col-md-4 mb-3">
+              <div class="card">
+                <img src="kel.jpg" class="card-img-top" alt="Senyumlah" />
+              <audio class="music" controls>
+                <source src="AndmeshSenyumlah.mp3" type="audio/mp3" />
+                Your browser does not support the audio element.
+              </audio>
+                <div class="card-body">
+                  <p class="card-text">Andmesh - Senyumlah</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4 mb-3">
+              <div class="card">
+                <img src="p_monster-seulgi-irene-266.jpg" class="card-img-top" alt="Senyumlah" />
+              <audio class="music" controls>
+                <source src="RedVelvetMonster.mp3" type="audio/mp3" />
+                Your browser does not support the audio element.
+              </audio>
+                <div class="card-body">
+                  <p class="card-text">Red Velvet Irene & seulgi - Monster</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+    <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"
+  ></script>
+	</body>
+</html>
